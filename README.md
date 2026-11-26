@@ -1,12 +1,12 @@
-# cs-178-TacoTeam
+# cifar10-ml
 
 CS 178 class project on the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset.
 
 ## Setup
 
 ```bash
-git clone https://github.com/Tacocat405583/cs-178-TacoTeam.git
-cd cs-178-TacoTeam
+git clone https://github.com/Tacocat405583/cifar10-ml.git
+cd cifar10-ml
 ```
 
 Then install with **either** uv or pip:
