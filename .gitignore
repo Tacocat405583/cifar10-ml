@@ -221,3 +221,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+# Data (never commit datasets; keep the folder)
+data/*
+!data/.gitkeep
+
+# Notebooks / Python
+.ipynb_checkpoints/
+__pycache__/
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Saved models
+*.pkl
