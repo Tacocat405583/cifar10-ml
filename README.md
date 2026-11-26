@@ -60,11 +60,11 @@ Xtr, ytr, Xte, yte = load_cifar10()  # (50000, 3072) (50000,) (10000, 3072) (100
 | `results/` | Metrics saved as CSV files. |
 | `figures/` | Plots saved as PNG/PDF. |
 
-## Team rules
+## Guidelines
 
 1. **One folder per person for notebooks** (`notebooks/<name>/`).
 2. **Shared code goes in `src/mlproj/`**, not copy-pasted between notebooks.
 3. **Keep shared code backwards compatible.** Add new scripts/functions instead of modifying existing ones, so you don't break other people's notebooks.
 4. **Don't commit data** (or model `.pkl` files).
 5. **Save metrics to `results/` as CSV and plots to `figures/`** so everyone can compare runs.
-6. **Use branches + PRs.** Don't push directly to `main`; get a teammate to review before merging.
+6. **Use branches + PRs.** Don't push directly to `main`; open a PR and I'll merge PRs at the end of each day.
